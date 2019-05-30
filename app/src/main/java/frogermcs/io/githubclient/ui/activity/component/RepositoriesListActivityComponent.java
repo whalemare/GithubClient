@@ -7,7 +7,7 @@ import frogermcs.io.githubclient.ui.activity.module.RepositoriesListActivityModu
 import frogermcs.io.githubclient.ui.activity.presenter.RepositoriesListActivityPresenter;
 
 /**
- * Created by Miroslaw Stanek on 23.04.15.
+ * Created by Irina Ivanova on 23.04.19.
  */
 @ActivityScope
 @Subcomponent(

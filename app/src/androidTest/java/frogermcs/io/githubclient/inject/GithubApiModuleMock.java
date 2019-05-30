@@ -5,7 +5,7 @@ import frogermcs.io.githubclient.data.api.GithubApiService;
 import frogermcs.io.githubclient.data.api.UserManager;
 
 /**
- * Created by Miroslaw Stanek on 23.09.15.
+ * Created by Irina Ivanova on 23.05.19.
  */
 public class GithubApiModuleMock extends GithubApiModule {
 

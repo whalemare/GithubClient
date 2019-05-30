@@ -10,7 +10,7 @@ import frogermcs.io.githubclient.ui.activity.component.SplashActivityComponent;
 import frogermcs.io.githubclient.ui.activity.module.SplashActivityModule;
 
 /**
- * Created by Miroslaw Stanek on 22.04.15.
+ * Created by Irina Ivanova on 22.04.19.
  */
 @Singleton
 @Component(

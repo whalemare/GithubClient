@@ -3,7 +3,7 @@ package frogermcs.io.githubclient.utils;
 import rx.Observer;
 
 /**
- * Created by Miroslaw Stanek on 23.04.15.
+ * Created by Irina Ivanova on 23.04.19.
  */
 public class SimpleObserver<T> implements Observer<T> {
     @Override

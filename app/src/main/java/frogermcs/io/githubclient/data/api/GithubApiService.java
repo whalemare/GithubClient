@@ -9,7 +9,7 @@ import retrofit2.http.Path;
 import rx.Observable;
 
 /**
- * Created by Miroslaw Stanek on 22.04.15.
+ * Created by Irina Ivanova on 22.04.19.
  */
 public interface GithubApiService {
 

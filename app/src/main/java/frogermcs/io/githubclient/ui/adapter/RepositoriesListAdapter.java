@@ -14,7 +14,7 @@ import frogermcs.io.githubclient.ui.adapter.viewholder.RepositoriesListViewHolde
 import frogermcs.io.githubclient.ui.adapter.viewholder.RepositoryViewHolder;
 
 /**
- * Created by Miroslaw Stanek on 24.04.15.
+ * Created by Irina Ivanova on 24.04.19.
  */
 public class RepositoriesListAdapter extends RecyclerView.Adapter {
 

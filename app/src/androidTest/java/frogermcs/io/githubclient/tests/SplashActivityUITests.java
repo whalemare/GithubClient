@@ -2,7 +2,6 @@ package frogermcs.io.githubclient.tests;
 
 import android.content.Intent;
 import android.support.test.InstrumentationRegistry;
-import android.support.test.espresso.matcher.ViewMatchers;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 
@@ -34,7 +33,7 @@ import static org.hamcrest.Matchers.not;
 import static org.mockito.Matchers.anyString;
 
 /**
- * Created by Miroslaw Stanek on 23.09.15.
+ * Created by Irina Ivanova on 23.05.19.
  */
 @RunWith(AndroidJUnit4.class)
 public class SplashActivityUITests {

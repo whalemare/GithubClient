@@ -7,7 +7,7 @@ import android.support.test.runner.AndroidJUnitRunner;
 import frogermcs.io.githubclient.inject.ApplicationMock;
 
 /**
- * Created by Miroslaw Stanek on 24.09.15.
+ * Created by Irina Ivanova on 24.05.19.
  */
 public class MyTestRunner extends AndroidJUnitRunner {
 

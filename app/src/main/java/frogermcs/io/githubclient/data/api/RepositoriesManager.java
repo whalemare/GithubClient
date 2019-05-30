@@ -13,7 +13,7 @@ import rx.functions.Func1;
 import rx.schedulers.Schedulers;
 
 /**
- * Created by Miroslaw Stanek on 22.04.15.
+ * Created by Irina Ivanova on 22.04.19.
  */
 public class RepositoriesManager {
     private User user;

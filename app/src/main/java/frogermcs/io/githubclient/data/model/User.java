@@ -4,7 +4,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 /**
- * Created by Miroslaw Stanek on 22.04.15.
+ * Created by Irina Ivanova on 22.04.19.
  */
 public class User implements Parcelable {
     public static final Parcelable.Creator<User> CREATOR = new Parcelable.Creator<User>() {

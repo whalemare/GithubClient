@@ -6,7 +6,7 @@ import frogermcs.io.githubclient.data.UserScope;
 import frogermcs.io.githubclient.data.model.User;
 
 /**
- * Created by Miroslaw Stanek on 23.06.15.
+ * Created by Irina Ivanova on 23.06.19.
  */
 @Module
 public class UserModule {

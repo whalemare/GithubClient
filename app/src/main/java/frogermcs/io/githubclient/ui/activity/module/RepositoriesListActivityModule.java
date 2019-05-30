@@ -20,7 +20,7 @@ import frogermcs.io.githubclient.ui.adapter.viewholder.RepositoryViewHolderFeatu
 import frogermcs.io.githubclient.ui.adapter.viewholder.RepositoryViewHolderNormalFactory;
 
 /**
- * Created by Miroslaw Stanek on 23.04.15.
+ * Created by Irina Ivanova on 23.04.19.
  */
 @Module
 public class RepositoriesListActivityModule {

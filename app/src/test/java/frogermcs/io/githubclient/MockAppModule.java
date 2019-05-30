@@ -8,7 +8,7 @@ import org.mockito.MockitoAnnotations;
 import frogermcs.io.githubclient.utils.AnalyticsManager;
 
 /**
- * Created by Miroslaw Stanek on 20.09.15.
+ * Created by Irina Ivanova on 20.05.19.
  */
 public class MockAppModule extends AppModule {
     @Mock

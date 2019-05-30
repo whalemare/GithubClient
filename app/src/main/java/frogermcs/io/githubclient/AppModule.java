@@ -10,7 +10,7 @@ import frogermcs.io.githubclient.utils.AnalyticsManager;
 import frogermcs.io.githubclient.utils.Validator;
 
 /**
- * Created by Miroslaw Stanek on 22.04.15.
+ * Created by Irina Ivanova on 22.04.19.
  */
 @Module
 public class AppModule {

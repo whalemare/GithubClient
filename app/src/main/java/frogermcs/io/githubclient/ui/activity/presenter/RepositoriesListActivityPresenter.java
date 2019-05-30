@@ -8,7 +8,7 @@ import frogermcs.io.githubclient.ui.activity.RepositoriesListActivity;
 import frogermcs.io.githubclient.utils.SimpleObserver;
 
 /**
- * Created by Miroslaw Stanek on 23.04.15.
+ * Created by Irina Ivanova on 23.04.19.
  */
 public class RepositoriesListActivityPresenter {
     private RepositoriesListActivity repositoriesListActivity;

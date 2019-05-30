@@ -3,7 +3,7 @@ package frogermcs.io.githubclient.data.api.response;
 import java.util.Date;
 
 /**
- * Created by Miroslaw Stanek on 22.04.15.
+ * Created by Irina Ivanova on 22.04.19.
  */
 public class UserResponse {
     public String login;

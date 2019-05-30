@@ -23,7 +23,7 @@ import static org.mockito.Mockito.doAnswer;
 import static org.mockito.Mockito.verify;
 
 /**
- * Created by Miroslaw Stanek on 19.09.15.
+ * Created by Irina Ivanova on 19.05.19.
  */
 @RunWith(RobolectricTestRunner.class)
 @Config(

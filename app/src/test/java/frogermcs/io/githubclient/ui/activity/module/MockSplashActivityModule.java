@@ -10,7 +10,7 @@ import frogermcs.io.githubclient.utils.Validator;
 import static org.mockito.Mockito.mock;
 
 /**
- * Created by Miroslaw Stanek on 20.09.15.
+ * Created by Irina Ivanova on 20.05.19.
  */
 public class MockSplashActivityModule extends SplashActivityModule {
 

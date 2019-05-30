@@ -1,7 +1,7 @@
 package frogermcs.io.githubclient;
 
 /**
- * Created by Miroslaw Stanek on 28.09.15.
+ * Created by Irina Ivanova on 28.05.19.
  */
 public class HeavyExternalLibrary {
 

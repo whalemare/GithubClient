@@ -8,7 +8,7 @@ import rx.observables.ConnectableObservable;
 import rx.schedulers.Schedulers;
 
 /**
- * Created by Miroslaw Stanek on 28.09.15.
+ * Created by Irina Ivanova on 28.05.19.
  */
 public class HeavyLibraryWrapper {
 
