@@ -37,6 +37,16 @@ public class RepositoriesManager {
                             repository.url = repositoryResponse.url;
                             repository.stargazers_count = repositoryResponse.stargazers_count;
                             repository.forks_count = repositoryResponse.forks_count;
+                            repository.full_name = repositoryResponse.full_name;
+                            repository.open_issues_count = repositoryResponse.open_issues_count;
+                            repository.forks = repositoryResponse.forks;
+                            repository.open_issues = repositoryResponse.open_issues;
+                            repository.watchers = repositoryResponse.watchers;
+                            repository.full_name = repositoryResponse.full_name;
+                            repository.language = repositoryResponse.language;
+                            repository.created_at = repositoryResponse.created_at;
+                            repository.updated_at = repositoryResponse.updated_at;
+                            repository.description = repositoryResponse.description;
                             listBuilder.add(repository);
                         }
                         return listBuilder.build();
