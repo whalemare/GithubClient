@@ -8,7 +8,7 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
-        tools:context="frogermcs.io.githubclient.ui.activity.RepositoryDetailsActivity">
+        tools:context="ru.ivanova.githubclient.ui.activity.RepositoryDetailsActivity">
 
         <TextView
             android:id="@+id/tvRepoName"

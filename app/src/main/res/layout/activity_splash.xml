@@ -1,35 +1,54 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fillViewport="true">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        app:title="@string/app_name"
+        app:titleTextColor="#fff"
+        android:background="@color/accent"
+        android:layout_height="wrap_content"/>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
         android:orientation="vertical"
         android:padding="16dp"
-        tools:context="frogermcs.io.githubclient.ui.activity.SplashActivity">
+        android:background="#FFFFFF"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-        <EditText
-            android:id="@+id/etUsername"
+        <android.support.design.widget.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="username" />
+            android:layout_height="wrap_content">
 
-        <Button
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/etUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Введите имя пользователя" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.button.MaterialButton
             android:id="@+id/btnShowRepositories"
             android:layout_width="match_parent"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_height="wrap_content"
+            android:background="@color/accent"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="16dp"
-            android:text="Show repositories" />
+            android:text="Показать репозитории" />
 
         <ProgressBar
             android:id="@+id/pbLoading"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:visibility="gone" />
+
     </LinearLayout>
-</ScrollView>
+
+</LinearLayout>

@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    tools:context="frogermcs.io.githubclient.ui.activity.RepositoriesListActivity"
+    tools:context="ru.ivanova.githubclient.ui.activity.RepositoriesListActivity"
     android:orientation="vertical">
 
     <android.support.v7.widget.RecyclerView
