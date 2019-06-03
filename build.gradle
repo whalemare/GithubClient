@@ -1,13 +1,17 @@
 buildscript {
     repositories {
         jcenter()
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
         google()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.4.0'
         classpath 'com.frogermcs.androiddevmetrics:androiddevmetrics-plugin:0.7'
+        classpath "com.vanniktech:gradle-dependency-graph-generator-plugin:0.6.0-SNAPSHOT"
     }
 }
+
+apply plugin: "com.vanniktech.dependency.graph.generator"
 
 allprojects {
     repositories {

@@ -1,5 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'com.frogermcs.androiddevmetrics'
+apply plugin: 'project-report'
+
 
 android {
     compileSdkVersion 28
@@ -72,4 +74,10 @@ dependencies {
     androidTestImplementation "com.google.dexmaker:dexmaker:1.2"
     androidTestImplementation "com.google.dexmaker:dexmaker-mockito:1.2"
     testAnnotationProcessor "com.google.auto.factory:auto-factory:1.0-beta3"
+}
+
+task printConfiguration {
+    configurations.each {
+        println it.name + it.dependencies
+    }
 }
